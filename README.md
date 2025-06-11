@@ -21,7 +21,7 @@ We apply a full unsupervised learning pipeline to the “Wholesale Customers” 
    - Visualized scaled Fresh vs. Milk and confirmed segment separation.  
 3. **Hierarchical Clustering**  
    - Computed a Ward linkage dendrogram (full view, no truncation).  
-   - Chose a 3-cluster cut for a coarse “high/medium/low” segmentation.  
+   - Chose a 5-cluster cut for a coarse segmentation.  
 4. **PCA Validation**  
    - Plotted cumulative explained variance: PC1 + PC2 capture ~72 %.  
    - Reduced to two components and scattered points colored by K-Means labels.
